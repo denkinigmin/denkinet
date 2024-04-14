@@ -1,1 +1,75 @@
 
+body{
+  background-color:rgb(39, 38, 46);
+  margin:0;
+
+}
+#header{
+  background-color:aquamarine;
+  padding:10px;
+}
+#header >h1{
+  color:rgb(39, 38, 46);
+  font: italic bold 3em "Times New Roman",Times,serif;
+  margin:0;
+}
+#content{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cf{
+  overflow: hidden;
+}
+.cf a{
+  color: rgb(39, 38, 46);
+  cursor: pointer;
+  display: block;
+  float:left;
+  padding: 1em 1.5em;
+  text-align: center;
+  text-decoration: none;
+}
+.cf a:hover{
+  background-color: rgb(39, 38, 46);
+  color: aquamarine;
+}
+.cf a.active{
+  background-color: rgb(39, 38, 46);
+  color:aquamarine;
+}
+.main{
+  border: 1px solid #CCC;
+  margin: 0 auto;
+  padding: 10px;
+  width: 80%;
+}
+.main > h2 {
+  color: #FFF;
+  border-left: 5px solid aquamarine;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.main > p {
+  color: #FFF;
+  font-size: 14px;
+  margin: 10px 25px;
+}
+.about{
+  color: #FFF;
+
+  padding-left: 40px;
+}
+.about dt{
+  border-left: 5px solid aquamarine;
+  padding-left: 20px;
+
+
+}
+#footer {
+  margin: 10px;
+  text-align: center;
+}
+
+#footer > p {
+  color:aquamarine;
+  font-size: 12px;
+}
